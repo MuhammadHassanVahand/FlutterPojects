@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:wallpaperapp/wallpapers_review.dart';
+import 'package:wallpaperapp/wallpapers.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,8 +10,8 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: WallpaperReview(),
+    return const MaterialApp(
+      home: Wallpapers(),
     );
   }
 }

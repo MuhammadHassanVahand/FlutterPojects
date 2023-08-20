@@ -18,7 +18,7 @@ class ProfileView extends StatelessWidget {
               assetImagePath:
                   "lib/widget/images/242853925_3354850844655922_5688251419522409922_n.jpg",
               name: "Hassan",
-              msg: "Saved",
+              msg: "Status",
               time: "3:50 pm",
               icon: '0xe156',
             ),

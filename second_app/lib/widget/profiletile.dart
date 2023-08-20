@@ -31,12 +31,12 @@ class ProfileTile extends StatelessWidget {
           radius: 25,
           backgroundImage: assetImagePath != null
               ? AssetImage(assetImagePath!)
-              : AssetImage(
+              : const AssetImage(
                   "lib/widget/images/blank-profile-picture-hd-images-photo-3.JPG"),
         ),
         title: Text(
           name ?? "Anonymous",
-          style: TextStyle(
+          style: const TextStyle(
               fontWeight: FontWeight.bold,
               fontSize: 17,
               color: Colors.black,
