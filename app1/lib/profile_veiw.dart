@@ -122,9 +122,9 @@ class _MessageSideState extends State<MessageSide> {
                         borderSide: const BorderSide(color: Colors.transparent),
                       ),
                       enabledBorder: OutlineInputBorder(
-                          borderRadius: BorderRadius.circular(35),
-                          borderSide:
-                              const BorderSide(color: Colors.transparent)),
+                        borderRadius: BorderRadius.circular(35),
+                        borderSide: const BorderSide(color: Colors.transparent),
+                      ),
                     ),
                   ),
                 ),
