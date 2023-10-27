@@ -28,30 +28,32 @@ class _FutureAndStreamsState extends State<FutureAndStreams> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
             FutureBuilder(
-                future: futureCounter(10),
-                builder: (context, snapshot) {
-                  if (snapshot.connectionState == ConnectionState.done) {
-                    return Text(
-                      "Future: ${snapshot.data.toString()}",
-                      style: const TextStyle(fontSize: 30),
-                    );
-                  }
-                  return const CircularProgressIndicator();
-                }),
-            SizedBox(
+              future: futureCounter(10),
+              builder: (context, snapshot) {
+                if (snapshot.connectionState == ConnectionState.done) {
+                  return Text(
+                    "Future: ${snapshot.data.toString()}",
+                    style: const TextStyle(fontSize: 30),
+                  );
+                }
+                return const CircularProgressIndicator();
+              },
+            ),
+            const SizedBox(
               height: 5,
             ),
             StreamBuilder(
-                stream: streamCounter(0),
-                builder: (context, snapshot) {
-                  if (snapshot.hasData) {
-                    return Text(
-                      "Stream: ${snapshot.data.toString()}",
-                      style: const TextStyle(fontSize: 30),
-                    );
-                  }
-                  return CircularProgressIndicator();
-                })
+              stream: streamCounter(0),
+              builder: (context, snapshot) {
+                if (snapshot.hasData) {
+                  return Text(
+                    "Stream: ${snapshot.data.toString()}",
+                    style: const TextStyle(fontSize: 30),
+                  );
+                }
+                return const CircularProgressIndicator();
+              },
+            )
           ],
         ),
       ),

@@ -16,7 +16,7 @@ class _RegisterState extends State<Register> {
 
   TextEditingController emailController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
-  bool isSignUp = false;
+  late bool isSignUp = false;
 
   registerUser() async {
     try {

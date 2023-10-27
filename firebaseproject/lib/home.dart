@@ -24,12 +24,13 @@ class _HomeState extends State<Home> {
             child: Text("Home"),
           ),
           InkWell(
-              onTap: () {
+              onTap: () async {
                 isSignOut = true;
-                setState(() {});
-                FirebaseAuth.instance.signOut();
+
+                await FirebaseAuth.instance.signOut();
                 Navigator.pop(context);
                 widget.updateScreen.call();
+                setState(() {});
               },
               child: const Text("Sign Out")),
           Visibility(

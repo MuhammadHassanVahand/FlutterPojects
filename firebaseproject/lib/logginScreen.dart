@@ -17,30 +17,49 @@ class _LoginScreenState extends State<LoginScreen> {
 
   TextEditingController emailController = TextEditingController();
   TextEditingController passwordController = TextEditingController();
-  bool isLogginIn = false;
+  late bool isLogginIn = false;
+
+  @override
+  void initState() {
+    super.initState();
+    isLogginIn = false;
+  }
 
   loginProccess() async {
     try {
-      isLogginIn = true;
-      setState(() {});
+      setState(() {
+        isLogginIn = true;
+      });
       final credential = await FirebaseAuth.instance.signInWithEmailAndPassword(
         email: emailController.text,
         password: passwordController.text,
       );
       // ignore: use_build_context_synchronously
-      Navigator.push(
-          context,
-          MaterialPageRoute(
-            builder: (context) => Home(
-              updateScreen: updateScreen,
-            ),
-          ));
-    } catch (e) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text("Login Successful!"),
+        ),
+      );
       setState(() {
         isLogginIn = false;
-        ScaffoldMessenger.of(context).showSnackBar(
-            const SnackBar(content: Text("I don't know what to do?")));
       });
+      // ignore: use_build_context_synchronously
+      await Navigator.push(
+          context,
+          MaterialPageRoute(
+            builder: (context) => Home(updateScreen: updateScreen),
+          ));
+      setState(() {});
+    } catch (e) {
+      isLogginIn = false;
+
+      // ignore: use_build_context_synchronously
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(
+          content: Text("Wrong password or Email provided for that user."),
+        ),
+      );
+      setState(() {});
       print(e);
     }
   }

@@ -1,0 +1,348 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "app1",
+            "cwd": "app1",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "app1 (profile mode)",
+            "cwd": "app1",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "app1 (release mode)",
+            "cwd": "app1",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "clean_coding",
+            "cwd": "clean_coding",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "clean_coding (profile mode)",
+            "cwd": "clean_coding",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "clean_coding (release mode)",
+            "cwd": "clean_coding",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "cms",
+            "cwd": "cms",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "cms (profile mode)",
+            "cwd": "cms",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "cms (release mode)",
+            "cwd": "cms",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "firebaseproject",
+            "cwd": "firebaseproject",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "firebaseproject (profile mode)",
+            "cwd": "firebaseproject",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "firebaseproject (release mode)",
+            "cwd": "firebaseproject",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "fullapp",
+            "cwd": "fullapp",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "fullapp (profile mode)",
+            "cwd": "fullapp",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "fullapp (release mode)",
+            "cwd": "fullapp",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "messagingapp",
+            "cwd": "messagingapp",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "messagingapp (profile mode)",
+            "cwd": "messagingapp",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "messagingapp (release mode)",
+            "cwd": "messagingapp",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "mini_ui_project",
+            "cwd": "mini_ui_project",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "mini_ui_project (profile mode)",
+            "cwd": "mini_ui_project",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "mini_ui_project (release mode)",
+            "cwd": "mini_ui_project",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "navigations",
+            "cwd": "navigations",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "navigations (profile mode)",
+            "cwd": "navigations",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "navigations (release mode)",
+            "cwd": "navigations",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "practiceapp",
+            "cwd": "practiceapp",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "practiceapp (profile mode)",
+            "cwd": "practiceapp",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "practiceapp (release mode)",
+            "cwd": "practiceapp",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "second_app",
+            "cwd": "second_app",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "second_app (profile mode)",
+            "cwd": "second_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "second_app (release mode)",
+            "cwd": "second_app",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "signup",
+            "cwd": "signup",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "signup (profile mode)",
+            "cwd": "signup",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "signup (release mode)",
+            "cwd": "signup",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "signupform",
+            "cwd": "signupform",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "signupform (profile mode)",
+            "cwd": "signupform",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "signupform (release mode)",
+            "cwd": "signupform",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "statemanagement",
+            "cwd": "statemanagement",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "statemanagement (profile mode)",
+            "cwd": "statemanagement",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "statemanagement (release mode)",
+            "cwd": "statemanagement",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "stfpractice",
+            "cwd": "stfpractice",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "stfpractice (profile mode)",
+            "cwd": "stfpractice",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "stfpractice (release mode)",
+            "cwd": "stfpractice",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "uber_ui_design",
+            "cwd": "uber_ui_design",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "uber_ui_design (profile mode)",
+            "cwd": "uber_ui_design",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "uber_ui_design (release mode)",
+            "cwd": "uber_ui_design",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "wallpaperapp",
+            "cwd": "wallpaperapp",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "wallpaperapp (profile mode)",
+            "cwd": "wallpaperapp",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "wallpaperapp (release mode)",
+            "cwd": "wallpaperapp",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        },
+        {
+            "name": "Mini_UI_project",
+            "cwd": "miniproject\\Mini_UI_project",
+            "request": "launch",
+            "type": "dart"
+        },
+        {
+            "name": "Mini_UI_project (profile mode)",
+            "cwd": "miniproject\\Mini_UI_project",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "profile"
+        },
+        {
+            "name": "Mini_UI_project (release mode)",
+            "cwd": "miniproject\\Mini_UI_project",
+            "request": "launch",
+            "type": "dart",
+            "flutterMode": "release"
+        }
+    ]
+}
