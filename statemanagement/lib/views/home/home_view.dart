@@ -17,13 +17,14 @@ class HomeView extends StatelessWidget {
               children: [
                 Text(
                   viewModel.counter.toString(),
-                  style: TextStyle(fontSize: 20),
+                  style: const TextStyle(fontSize: 20),
                 ),
                 ElevatedButton(
-                    onPressed: () {
-                      viewModel.addViewModel();
-                    },
-                    child: Text("Add"))
+                  onPressed: () {
+                    viewModel.addViewModel();
+                  },
+                  child: const Text("Add"),
+                )
               ],
             ),
           ),
